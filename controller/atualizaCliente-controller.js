@@ -34,3 +34,5 @@ import { clienteService } from '../service/cliente-service.js'
     }
   })
 })()
+
+/* Sobre a linha 7: Criamos um novo objeto URL que é capaz de nos dizer qual o endereço da página que estamos. Por meio da propriedade searchParams conseguimos acessar o método get e selecionar o id que vemos na url. */ 
